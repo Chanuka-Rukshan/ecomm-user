@@ -4,30 +4,123 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d69ea978-cd1d-47f0-9382-3b0860a7df7c" name="Changes" comment="" />
+    <list default="true" id="d69ea978-cd1d-47f0-9382-3b0860a7df7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/AppImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/NameBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Chanuka-Rukshan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Chanuka-Rukshan/ecomm-user.git",
+    "accountId": "d9b00b2b-1668-4d84-8f62-f7ee52531368"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5668242521370996E-30" />
+      <entry key="MS500" value="1.150199808985829E-6" />
+      <entry key="S2" value="0.04774041653451409" />
+      <entry key="S5" value="0.44801382698678044" />
+      <entry key="S10" value="1.1378330171212465" />
+      <entry key="S30" value="4.102061675561854" />
+      <entry key="S60" value="6.769307270561068" />
+      <entry key="M2" value="8.941843577760782" />
+      <entry key="M5" value="10.874942453589455" />
+      <entry key="M10" value="12.25549766654762" />
+      <entry key="M15" value="13.067993541630996" />
+      <entry key="M30" value="14.243257327729264" />
+      <entry key="H1" value="15.030821367971962" />
+      <entry key="H2" value="15.489943137669144" />
+      <entry key="H4" value="15.738221817091855" />
+      <entry key="D1" value="15.95539844835413" />
+      <entry key="W1" value="15.993604087477737" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.00000000000591" />
+      <entry key="MS500" value="1.0056795804077334" />
+      <entry key="S2" value="1.278921574707946" />
+      <entry key="S5" value="1.7708526984960786" />
+      <entry key="S10" value="2.4746924853750913" />
+      <entry key="S30" value="4.302137100050618" />
+      <entry key="S60" value="5.79130597453546" />
+      <entry key="M2" value="7.086359043813245" />
+      <entry key="M5" value="8.796079970006396" />
+      <entry key="M10" value="11.097394854953281" />
+      <entry key="M15" value="12.706552382127684" />
+      <entry key="M30" value="15.172861761606608" />
+      <entry key="H1" value="16.874833037222785" />
+      <entry key="H2" value="17.878209694987497" />
+      <entry key="H4" value="18.423431771591368" />
+      <entry key="D1" value="18.90165030069578" />
+      <entry key="W1" value="18.985893769443003" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.005013382412355095" />
+      <entry key="MS500" value="0.34694033148490167" />
+      <entry key="S2" value="0.9178039108172816" />
+      <entry key="S5" value="1.8167177690446858" />
+      <entry key="S10" value="3.2237679589658117" />
+      <entry key="S30" value="8.118422378681377" />
+      <entry key="S60" value="12.363605882907283" />
+      <entry key="M2" value="15.908369064028005" />
+      <entry key="M5" value="19.613310063888566" />
+      <entry key="M10" value="23.318142009281136" />
+      <entry key="M15" value="25.748679298790222" />
+      <entry key="M30" value="29.401126483353824" />
+      <entry key="H1" value="31.8974489488109" />
+      <entry key="H2" value="33.36384119948878" />
+      <entry key="H4" value="34.15944102753909" />
+      <entry key="D1" value="34.85667169470215" />
+      <entry key="W1" value="34.979443783296695" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1,
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3F4JXI7il7rlLLLJZUslUu6xYs9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.ecomm-user [clean,compile,package].executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -36,6 +129,11 @@
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -56,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781330811725</updated>
-      <workItem from="1781330815551" duration="106000" />
+      <workItem from="1781330815551" duration="3673000" />
     </task>
     <servers />
   </component>
