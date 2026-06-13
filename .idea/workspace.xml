@@ -10,16 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d69ea978-cd1d-47f0-9382-3b0860a7df7c" name="Changes" comment="Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/bean/UserSessionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/bean/TestSessionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/TestRemote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/AppImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/NameBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/X.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,61 +56,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.520974570582798E-19" />
-      <entry key="MS500" value="2.1431196230701225E-4" />
-      <entry key="S2" value="0.1210226020946486" />
-      <entry key="S5" value="0.4449965059394266" />
-      <entry key="S10" value="0.7793910101856591" />
-      <entry key="S30" value="1.3733800172756205" />
-      <entry key="S60" value="1.8055580315463045" />
-      <entry key="M2" value="3.1206075068810764" />
-      <entry key="M5" value="8.244083843822777" />
-      <entry key="M10" value="14.596756900181038" />
-      <entry key="M15" value="18.585078185863306" />
-      <entry key="M30" value="25.20543466313922" />
-      <entry key="H1" value="31.996180176262257" />
-      <entry key="H2" value="38.26606746193374" />
-      <entry key="H4" value="42.868457329869756" />
-      <entry key="D1" value="47.84759637176662" />
-      <entry key="W1" value="48.83179903874664" />
+      <entry key="MS100" value="5.392108468149842E-16" />
+      <entry key="MS500" value="8.837953739090869E-4" />
+      <entry key="S2" value="0.1724302452726207" />
+      <entry key="S5" value="0.5050860260945025" />
+      <entry key="S10" value="0.804089358237335" />
+      <entry key="S30" value="1.4494220854481756" />
+      <entry key="S60" value="2.1099025981446795" />
+      <entry key="M2" value="2.9632275841384033" />
+      <entry key="M5" value="3.9635047038014246" />
+      <entry key="M10" value="4.758486878396172" />
+      <entry key="M15" value="5.886663343944483" />
+      <entry key="M30" value="11.494567166335399" />
+      <entry key="H1" value="23.20173449853125" />
+      <entry key="H2" value="37.59780501185321" />
+      <entry key="H4" value="49.80861101358773" />
+      <entry key="D1" value="64.41962615295034" />
+      <entry key="W1" value="67.47284951136486" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000210452794" />
-      <entry key="MS500" value="1.0463757645959195" />
-      <entry key="S2" value="1.6476885177015517" />
-      <entry key="S5" value="2.5930252499864634" />
-      <entry key="S10" value="3.6008897271586675" />
-      <entry key="S30" value="5.823588611960581" />
-      <entry key="S60" value="7.755942278793134" />
-      <entry key="M2" value="10.752215734233873" />
-      <entry key="M5" value="17.543949819153458" />
-      <entry key="M10" value="24.134966268998046" />
-      <entry key="M15" value="27.777200324026687" />
-      <entry key="M30" value="33.490330711947195" />
-      <entry key="H1" value="39.79321686780332" />
-      <entry key="H2" value="46.19822324905945" />
-      <entry key="H4" value="51.156575584554595" />
-      <entry key="D1" value="56.69655888861" />
-      <entry key="W1" value="57.80930626640012" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000135794473" />
+      <entry key="S2" value="1.0107999410941924" />
+      <entry key="S5" value="1.173367065861796" />
+      <entry key="S10" value="1.5425007411682254" />
+      <entry key="S30" value="2.8690924903099977" />
+      <entry key="S60" value="4.379319392650638" />
+      <entry key="M2" value="6.010993574265511" />
+      <entry key="M5" value="7.5845738144189605" />
+      <entry key="M10" value="8.541604002063085" />
+      <entry key="M15" value="9.834025565556388" />
+      <entry key="M30" value="16.60344907251529" />
+      <entry key="H1" value="30.57565002155759" />
+      <entry key="H2" value="47.47037609333338" />
+      <entry key="H4" value="61.73218080689793" />
+      <entry key="D1" value="78.80859460020575" />
+      <entry key="W1" value="82.38267378073407" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.1941143483003328E-7" />
-      <entry key="MS500" value="0.05413468749746492" />
-      <entry key="S2" value="0.9930348743113624" />
-      <entry key="S5" value="2.5060468267904885" />
-      <entry key="S10" value="3.9981353317506008" />
-      <entry key="S30" value="6.972799186533069" />
-      <entry key="S60" value="9.404432068878403" />
-      <entry key="M2" value="13.757975335439925" />
-      <entry key="M5" value="25.707452011982145" />
-      <entry key="M10" value="38.67442237114283" />
-      <entry key="M15" value="46.31784454325607" />
-      <entry key="M30" value="58.66858149529082" />
-      <entry key="H1" value="71.77294523259962" />
-      <entry key="H2" value="84.45458207103069" />
-      <entry key="H4" value="94.01960148774403" />
-      <entry key="D1" value="104.5431423714566" />
-      <entry key="W1" value="106.64095751639813" />
+      <entry key="MS100" value="1.5558601407746143E-4" />
+      <entry key="MS500" value="0.17397248987585726" />
+      <entry key="S2" value="0.8157276410294263" />
+      <entry key="S5" value="1.4052456515717664" />
+      <entry key="S10" value="2.0802018702781635" />
+      <entry key="S30" value="4.122518505496139" />
+      <entry key="S60" value="6.3379934616554765" />
+      <entry key="M2" value="8.869058328182424" />
+      <entry key="M5" value="11.494187870726678" />
+      <entry key="M10" value="13.269585839530336" />
+      <entry key="M15" value="15.697648238145234" />
+      <entry key="M30" value="28.080288340561513" />
+      <entry key="H1" value="53.762367590728914" />
+      <entry key="H2" value="85.05695457416567" />
+      <entry key="H4" value="111.53359975351921" />
+      <entry key="D1" value="143.22670524536443" />
+      <entry key="W1" value="149.85529728805545" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -140,6 +134,7 @@
     "Payara Server.Payara 6.2025.11.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -152,13 +147,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.20574713",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="GlassFish 7.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../../../Program Files/Java/jdk-17" nameIsGenerated="true">
+    <configuration name="GlassFish 7.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_202\jre" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ecomm-user:ejb">
@@ -260,7 +258,10 @@
       <option name="presentableId" value="Default" />
       <updated>1781330811725</updated>
       <workItem from="1781330815551" duration="6231000" />
-      <workItem from="1781340687022" duration="3778000" />
+      <workItem from="1781340687022" duration="4106000" />
+      <workItem from="1781362445060" duration="404000" />
+      <workItem from="1781362899795" duration="2537000" />
+      <workItem from="1781367583527" duration="6738000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <option name="closed" value="true" />
@@ -270,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781338120411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done">
+      <option name="closed" value="true" />
+      <created>1781345614345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781345614345</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
