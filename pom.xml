@@ -23,6 +23,8 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -34,6 +36,13 @@
                 <configuration>
                     <generateClient>true</generateClient>
                     <!-- ***Been / ***CMP / ***Session -> Exclude -->
+                    <!--                    <clientExcludes>-->
+                    <!--                        <clientExclude>lk/jiat/ecomm/user/been/**</clientExclude>-->
+                    <!--                    </clientExcludes>-->
+
+                    <!--                    <clientIncludes>-->
+                    <!--                        <clientInclude>lk/jiat/ecomm/user/been/**</clientInclude>-->
+                    <!--                    </clientIncludes>-->
                 </configuration>
             </plugin>
         </plugins>
