@@ -2,6 +2,8 @@ package lk.jiat.ecomm.user.bean;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import jakarta.ejb.PostActivate;
+import jakarta.ejb.PrePassivate;
 import jakarta.ejb.Stateful;
 import jakarta.ejb.Stateless;
 import lk.jiat.ecomm.user.remote.TestRemote;
@@ -21,7 +23,15 @@ public class TestSessionBean implements TestRemote {
         System.out.println("TestSessionBean destroy");
     }
 
+    @PostActivate
+    public void postActive(){
+        System.out.println("TestSessionBean postActive");
+    }
 
+    @PrePassivate
+    public void preActivate(){
+        System.out.println("TestSessionBean preActivate");
+    }
 
     @Override
     public String test() {
