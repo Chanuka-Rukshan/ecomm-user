@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d69ea978-cd1d-47f0-9382-3b0860a7df7c" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/bean/TestNewSessionBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/bean/TestSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/bean/TestSessionBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/TestRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/TestRemote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,61 +71,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="6.955256791513238E-82" />
-      <entry key="MS500" value="5.867628830377061E-17" />
-      <entry key="S2" value="8.752893882876601E-5" />
-      <entry key="S5" value="0.024419335190696216" />
-      <entry key="S10" value="0.18587592565949188" />
-      <entry key="S30" value="1.1348538039459564" />
-      <entry key="S60" value="2.2464234503949023" />
-      <entry key="M2" value="3.6056268136469587" />
-      <entry key="M5" value="5.2211660786243925" />
-      <entry key="M10" value="6.3153935884677805" />
-      <entry key="M15" value="7.5314293425795915" />
-      <entry key="M30" value="13.173025756261982" />
-      <entry key="H1" value="24.89103060824277" />
-      <entry key="H2" value="39.350098930692894" />
-      <entry key="H4" value="51.64553931931169" />
-      <entry key="D1" value="66.38461902887742" />
-      <entry key="W1" value="69.46761467771503" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.067517782184848E-80" />
+      <entry key="S2" value="1.92389511076252E-20" />
+      <entry key="S5" value="2.2901162009960432E-8" />
+      <entry key="S10" value="2.6958548551706706E-4" />
+      <entry key="S30" value="0.1780731052224321" />
+      <entry key="S60" value="1.0823143992883413" />
+      <entry key="M2" value="2.9936885076969824" />
+      <entry key="M5" value="5.986415010380576" />
+      <entry key="M10" value="7.947871664158667" />
+      <entry key="M15" value="9.472882858095701" />
+      <entry key="M30" value="15.336910554915828" />
+      <entry key="H1" value="27.1592624644665" />
+      <entry key="H2" value="41.79039246760455" />
+      <entry key="H4" value="54.28310864594945" />
+      <entry key="D1" value="69.30768876458701" />
+      <entry key="W1" value="72.45613039123937" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000171908451614" />
-      <entry key="S2" value="1.0644606830245043" />
-      <entry key="S5" value="1.3733585278806761" />
-      <entry key="S10" value="1.9769748294217344" />
-      <entry key="S30" value="4.651552163418714" />
-      <entry key="S60" value="7.533125144971457" />
-      <entry key="M2" value="10.67502354558842" />
-      <entry key="M5" value="13.889254817713146" />
-      <entry key="M10" value="15.593854792573403" />
-      <entry key="M15" value="17.130341536479342" />
-      <entry key="M30" value="24.076328029813748" />
-      <entry key="H1" value="38.13274375035555" />
-      <entry key="H2" value="55.14042793064644" />
-      <entry key="H4" value="69.52137163570042" />
-      <entry key="D1" value="86.7643062686768" />
-      <entry key="W1" value="90.37607307688631" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000003277474" />
+      <entry key="S5" value="1.0002210657256276" />
+      <entry key="S10" value="1.0208495157567643" />
+      <entry key="S30" value="1.6691301310352136" />
+      <entry key="S60" value="3.666890561652726" />
+      <entry key="M2" value="7.625565722440335" />
+      <entry key="M5" value="13.538371084624432" />
+      <entry key="M10" value="16.999226337151573" />
+      <entry key="M15" value="19.20099273723452" />
+      <entry key="M30" value="26.726157634256662" />
+      <entry key="H1" value="41.079192047777966" />
+      <entry key="H2" value="58.38506393018558" />
+      <entry key="H4" value="73.0469481227115" />
+      <entry key="D1" value="90.66588132677977" />
+      <entry key="W1" value="94.36143282277754" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.1771041392625337E-4" />
-      <entry key="MS500" value="0.19971297914317848" />
-      <entry key="S2" value="0.6709899732931226" />
-      <entry key="S5" value="0.9959440225217073" />
-      <entry key="S10" value="1.753742689630583" />
-      <entry key="S30" value="5.439513853849334" />
-      <entry key="S60" value="9.50389712941035" />
-      <entry key="M2" value="14.087181165002628" />
-      <entry key="M5" value="19.009827401294597" />
-      <entry key="M10" value="21.85276449823452" />
-      <entry key="M15" value="24.6208165998085" />
-      <entry key="M30" value="37.22241946812573" />
-      <entry key="H1" value="63.00409007718967" />
-      <entry key="H2" value="94.47693494696945" />
-      <entry key="H4" value="121.15852139751131" />
-      <entry key="D1" value="153.14720691239555" />
-      <entry key="W1" value="159.8434326631343" />
+      <entry key="MS100" value="9.432971962156691E-4" />
+      <entry key="MS500" value="0.24827312385925898" />
+      <entry key="S2" value="0.7058825197418458" />
+      <entry key="S5" value="0.8701052294670715" />
+      <entry key="S10" value="0.9499984130671604" />
+      <entry key="S30" value="1.7754641195840795" />
+      <entry key="S60" value="4.639595380962312" />
+      <entry key="M2" value="10.492517164383454" />
+      <entry key="M5" value="19.43116819271856" />
+      <entry key="M10" value="24.88772159694863" />
+      <entry key="M15" value="28.629339894606616" />
+      <entry key="M30" value="42.03355142445089" />
+      <entry key="H1" value="68.21726701397317" />
+      <entry key="H2" value="100.16102618738798" />
+      <entry key="H4" value="127.32121186111944" />
+      <entry key="D1" value="159.97176816378143" />
+      <entry key="W1" value="166.81729594924352" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -145,7 +162,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20574713&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
@@ -153,21 +170,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunDashboard">
-    <option name="configurationStatuses">
-      <map>
-        <entry key="GlassfishConfiguration">
-          <value>
-            <map>
-              <entry key="GlassFish 7.0.0" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.jiat.ecomm.user.bean" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="GlassFish 7.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_202\jre" nameIsGenerated="true">
+    <configuration name="Payara 6.2025.11" type="PayaraServerConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Payara 6.2025.11" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="ms-11" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ecomm-user:ejb">
@@ -175,7 +184,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="DOMAIN" value="domain1" />
+        <option name="DOMAIN_NAME" value="domain1" />
         <option name="PRESERVE" value="false" />
         <option name="COMPATIBILITY" value="false" />
         <option name="VIRTUAL_SERVER" />
@@ -260,7 +269,12 @@
       <workItem from="1781362899795" duration="2537000" />
       <workItem from="1781367583527" duration="6773000" />
       <workItem from="1781428462641" duration="1474000" />
-      <workItem from="1781444058616" duration="2678000" />
+      <workItem from="1781444058616" duration="2741000" />
+      <workItem from="1781602076085" duration="2582000" />
+      <workItem from="1781610069988" duration="154000" />
+      <workItem from="1781692395643" duration="2733000" />
+      <workItem from="1781714930044" duration="6217000" />
+      <workItem from="1781773308374" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <option name="closed" value="true" />
@@ -294,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781444099872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done">
+      <option name="closed" value="true" />
+      <created>1781456768837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781456768837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
